@@ -1,0 +1,35 @@
+{
+  "name": "job_tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./jobtracker/frontend/src/index.js --output ./jobtracker/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./jobtracker/frontend/src/index.js --output ./jobtracker/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkp66/react-django-job-tracker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtkp66/react-django-job-tracker/issues"
+  },
+  "homepage": "https://github.com/jtkp66/react-django-job-tracker#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
