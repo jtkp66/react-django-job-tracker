@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development ./jobtracker/frontend/src/index.js --output ./jobtracker/frontend/static/frontend/main.js",
+    "dev": "webpack --mode development --watch ./jobtracker/frontend/src/index.js --output ./jobtracker/frontend/static/frontend/main.js",
     "build": "webpack --mode production ./jobtracker/frontend/src/index.js --output ./jobtracker/frontend/static/frontend/main.js"
   },
   "repository": {
