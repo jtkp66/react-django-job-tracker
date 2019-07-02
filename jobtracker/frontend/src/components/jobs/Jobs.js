@@ -5,7 +5,9 @@ import { getJobs, deleteJob } from "../../actions/jobs";
 
 export class Jobs extends Component {
   static propTypes = {
-    jobs: PropTypes.array.isRequired
+    jobs: PropTypes.array.isRequired,
+    getJobs: PropTypes.func.isRequired,
+    deleteJob: PropTypes.func.isRequired
   };
 
   componentDidMount() {
